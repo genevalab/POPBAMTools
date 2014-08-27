@@ -1,6 +1,6 @@
 #' Read popbam trees
 #'
-#' This function reads \code{POPBAM} tree output and creates a multiphylo object with aligmnent details added to tree details
+#' This function reads \code{POPBAM} tree output and creates a \code{multiphylo} object with aligmnent details added to tree details
 #' @param \code{x} filename of popbam tree output
 #' @keywords POPBAM, trees
 #' @export
