@@ -6,7 +6,7 @@
 plot_popbam_tree(tree, root = FALSE)
 }
 \arguments{
-\item{\code{tree}}{multiphlyo created by \code{read_popbam_tree()}
+\item{\code{tree}}{multiphylo created by \code{read_popbam_tree()}
 #'}
 
 \item{\code{root}}{name of taxon to root tree}
