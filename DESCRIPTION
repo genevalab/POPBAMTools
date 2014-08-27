@@ -1,0 +1,13 @@
+Package: POPBAMTools
+Type: Package
+Title: A collection of tools for manipulating POPBAM output
+Version: 0.1
+Author: Anthony J Geneva <anthony.geneva@gmail.com>,
+Description: This package takes the output from the population genomic
+	software POPBAM and creates annotated R objects for further analysis
+	and plotting
+Depends:
+    R (>= 3.0.3),
+    ape
+License: What license is it under?
+LazyData: true
