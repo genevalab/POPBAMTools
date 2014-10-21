@@ -10,6 +10,6 @@ install.packages("devtools")
 ```
 Once installed run the following lines to install and load POPBAMTools
 ```
-devtools:install_github("geneva/POPBAMTools")
+devtools::install_github("geneva/POPBAMTools")
 library(POPBAMTools)
 ```
