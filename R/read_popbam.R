@@ -25,7 +25,6 @@ read_popbam <- function(file){
     labs <- sub(":","",labs)
     labs <- gsub("\\[","_", labs)
     labs <- gsub("\\]","", labs)
-    
     colnames(nums) <- c("chr", "start", "end",labs)
   }
   return(nums)  
