@@ -15,12 +15,17 @@ read_popbam <- function(file){
     nums <- dat[,c(1,2,3,4,seq(6,cols,by=2))]
     labs <- dat[1,seq(5,cols,by=2)]
     labs <- sub(":","",labs)
+    labs <- gsub("\\[","_", colnames(labs))
+    labs <- gsub("\\]","", colnames(labs))
     colnames(nums) <- c("chr", "start", "end","nsites",labs)           
   }
   else{
     nums <- dat[,c(1,2,3,seq(5,cols,by=2))]
     labs <- dat[1,seq(4,cols,by=2)]
     labs <- sub(":","",labs)
+    labs <- gsub("\\[","_", colnames(labs))
+    labs <- gsub("\\]","", colnames(labs))
+    
     colnames(nums) <- c("chr", "start", "end",labs)
   }
   return(nums)  
